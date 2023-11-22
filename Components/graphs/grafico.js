@@ -10,7 +10,7 @@ function Meu({pieCentroid, index, data}){
       textAnchor={'middle'}
       alignmentBaseline={'middle'}
     >
-      R${data.value}
+      R$ {data.value}
     </Text>
     )
 }

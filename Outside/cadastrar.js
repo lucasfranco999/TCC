@@ -131,7 +131,7 @@ export default function Cadastrar({navigator, route}) {
         <FontAwesome5 name="money-bill-wave" style={styles.icon} size={24} />
         <TextInput
           style={styles.input}
-          placeholder="Saldo Mínimo"
+          placeholder="Saldo Atual"
           underlineColorAndroid="transparent"
           keyboardType='numeric'
           value={saldo}
